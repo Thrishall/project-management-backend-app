@@ -10,7 +10,7 @@ const cors = require("cors")
 const PORT = process.env.PORT || 4000;
 
 app.use(cors({
-    origin: ['https://vercel.com/thrishall-rs-projects/project-management-frontend-app', 'http://localhost:5173'],
+    origin: ['https://vercel.com/thrishall-rs-projects/project-management-frontend-app', 'http://localhost:5174'],
     credentials: true           
 }));
 
